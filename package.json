@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "tape test.js",
-    "prepublish": "npm test"
+    "prepublish": "npm test",
+    "precommit": "npm test"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/fraserxu/is-color-bright#readme",
   "devDependencies": {
+    "husky": "^0.11.4",
     "tape": "^4.6.0"
   }
 }
