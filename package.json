@@ -1,0 +1,22 @@
+{
+  "name": "is-color-bright",
+  "version": "1.0.0",
+  "description": "check if a given color is bright",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraserxu/is-color-bright.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fraserxu/is-color-bright/issues"
+  },
+  "homepage": "https://github.com/fraserxu/is-color-bright#readme",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
+}
