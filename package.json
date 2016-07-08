@@ -4,7 +4,8 @@
   "description": "check if a given color is bright",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js"
+    "test": "tape test.js",
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",
